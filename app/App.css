@@ -72,6 +72,11 @@ footer {
   padding: 20px;
 }
 
+footer .footer-content {
+  display: block;
+  padding: 10px 10px 10px 0px;
+}
+
 .dashboard-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

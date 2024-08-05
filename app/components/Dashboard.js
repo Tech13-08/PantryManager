@@ -2,6 +2,7 @@
 
 import { useContext, useState, useEffect } from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import { AuthContext } from "../contexts/AuthContext";
 import {
   Box,
@@ -348,6 +349,7 @@ export default function Dashboard() {
           </Box>
         </Modal>
       </Box>
+      <Footer />
     </div>
   );
 }

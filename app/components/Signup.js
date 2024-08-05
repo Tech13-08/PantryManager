@@ -6,6 +6,7 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { setDoc, doc } from "firebase/firestore";
 import { Link, useNavigate } from "react-router-dom";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Signup() {
   const [email, setEmail] = useState("");
@@ -87,6 +88,7 @@ function Signup() {
           Already have an account? <Link to="/login">Login</Link>
         </p>
       </main>
+      <Footer />
     </div>
   );
 }

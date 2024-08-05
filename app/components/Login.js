@@ -5,6 +5,7 @@ import { auth } from "../firebase/firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { Link, useNavigate } from "react-router-dom";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -49,6 +50,7 @@ function Login() {
           Don&apos;t have an account? <Link to="/signup">Sign up</Link>
         </p>
       </main>
+      <Footer />
     </div>
   );
 }
